@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#content {
+  font-family: "Montserrat", cursive;
+  min-height: 100vh;
+  background-image: url("/src/Assets/background2.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.83);
+  height: 30vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.nav-button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  font-family: "Montserrat", cursive;
+  font-size: 24px;
+  margin: auto 10px;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.nav-button:hover {
+  transform: translateY(-10%);
+}
+
+.active {
+  border-bottom: 2px solid white;
+}
+
+main {
+  min-height: 60vh;
+  background-color: rgba(0, 0, 0, 0.83);
+  margin: auto 10%;
+}
+
+.home {
+  min-height: 60vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.home img {
+  width: 50%;
+  margin: 20px auto;
+}
+.home p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  padding: 4rem;
+}
+
+.menu-item {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding: 4rem;
+  background-color: rgba(0, 0, 0, 0.83);
+}
+.menu-item:hover {
+  background-color: rgba(128, 128, 128, 0.83);
+}
+.menu-item img {
+  width: 60%;
+}
+
+.contact {
+  min-height: 60vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.contact img {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.footer {
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.83);
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
